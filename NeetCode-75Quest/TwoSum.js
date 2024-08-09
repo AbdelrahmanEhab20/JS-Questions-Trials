@@ -18,6 +18,10 @@ var twoSum = function (numbers, target) {
     const complement = target - numbers[i];
     if (numIndices.hasOwnProperty(complement)) {
       return [numIndices[complement], i];
+      //   return {
+      //     indices: [numIndices[complement], i],
+      //     numbers: [target - numbers[i], numbers[i]],
+      //   };
     }
     numIndices[numbers[i]] = i;
   }
