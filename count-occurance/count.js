@@ -8,6 +8,11 @@ function countOccurrences(arr) {
   }
   return counts;
 }
+function removeDuplicates(arr) {
+  return Array.from(new Set(arr));
+}
 const arr = [1, 2, 3, 2, 1, 3, 1, 4, 2];
 const occurrences = countOccurrences(arr);
+const removeDuplicatesTEst = removeDuplicates(arr);
 console.log(occurrences);
+console.log(removeDuplicatesTEst);
