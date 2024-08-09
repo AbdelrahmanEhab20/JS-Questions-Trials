@@ -11,6 +11,13 @@ function countOccurrences(arr) {
 function removeDuplicates(arr) {
   return Array.from(new Set(arr));
 }
+// function removeDuplicates(arr) {
+//   const uniqueElements = new Map();
+//   for (const element of arr) {
+//     uniqueElements.set(element, true);
+//   }
+//   return Array.from(uniqueElements.keys());
+// }
 const arr = [1, 2, 3, 2, 1, 3, 1, 4, 2];
 const occurrences = countOccurrences(arr);
 const removeDuplicatesTEst = removeDuplicates(arr);
