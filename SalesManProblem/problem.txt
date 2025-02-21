@@ -1,0 +1,8 @@
+Traveling Salesman Problem (TSP) Brief
+----------------------------------------
+The Traveling Salesman Problem (TSP) is a classic optimization problem in computer science and operations research. 
+The problem is defined as follows:
+- Given: A set of cities and the distances between each pair of cities.
+- Objective: Find the shortest possible route that allows a salesman to visit each city exactly once and return to the starting city.
+The TSP is known for being NP-hard, meaning that there is no known algorithm that can solve the problem efficiently
+ for large numbers of cities. However, there are several algorithms that provide approximate or exact solutions for smaller sets of cities.
